@@ -407,6 +407,11 @@ ul {
   border-bottom: 2px solid #eee;
 }
 
+.about-content .about-box-text h4 em {
+	color: #fa5252;
+	font-style: normal;
+}
+
 .about-content .about-box-text p {
   color: #343434;
   margin-bottom: 20px;
