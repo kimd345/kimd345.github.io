@@ -491,6 +491,16 @@ ul {
   -webkit-transition: all 0.2s linear;
 }
 
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  padding: 20px 0px;
+  color: #fff;
+  font-weight: 300;
+}
+
 /*
 ========================================
 ---------- RESPONSIVE STYLE ------------
