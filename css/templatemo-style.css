@@ -356,74 +356,7 @@ ul {
   float: right;
 }
 
-/*
-========================
------- ABOUT STYLE -----
-========================
-*/
-
-.about-content {
-  height: 100vh;
-  background-color: rgba(45, 58, 75, 0.5);
-  padding: 0px 60px;
-  position: relative;
-  margin: 0 auto;
-}
-
-.about-content .heading {
-  padding-top: 40%;
-}
-
-.about-box-content {
-  margin-left: -100px;
-  margin-right: 100px;
-}
-
-.about-box-content img {
-  width: 100%;
-  overflow: hidden;
-  position: absolute;
-}
-
-.about-content .about-box-text {
-  background-color: #fff;
-  padding: 30px;
-  margin-top: 60px;
-}
-
-.about-content .about-box-text h4 {
-  display: inline-block;
-  padding-bottom: 5px;
-  font-size: 22px;
-  color: #121212;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 0px;
-  margin-bottom: 15px;
-  border-bottom: 2px solid #eee;
-}
-
-.about-content .about-box-text h4 em {
-  color: #fa5252;
-  font-style: normal;
-}
-
-.about-content .about-box-text p {
-  color: #343434;
-  margin-bottom: 20px;
-}
-
-.about-content .primary-button a:hover {
-  background-color: transparent;
-  color: #fa5252;
-  border: 1px solid #fa5252;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-}
-
-.about-box-buttons-container {
+.home-buttons-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -483,6 +416,73 @@ ul {
 }
 
 .projects-content .primary-button a:hover {
+  background-color: transparent;
+  color: #fa5252;
+  border: 1px solid #fa5252;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+
+/*
+========================
+------ ABOUT STYLE -----
+========================
+*/
+
+.about-content {
+  height: 100vh;
+  background-color: rgba(45, 58, 75, 0.5);
+  padding: 0px 60px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.about-content .heading {
+  padding-top: 40%;
+}
+
+.about-box-content {
+  margin-left: -100px;
+  margin-right: 100px;
+}
+
+.about-box-content img {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.about-content .about-box-text {
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 60px;
+}
+
+.about-content .about-box-text h4 {
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 22px;
+  color: #121212;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eee;
+}
+
+.about-content .about-box-text h4 em {
+  color: #fa5252;
+  font-style: normal;
+}
+
+.about-content .about-box-text p {
+  color: #343434;
+  margin-bottom: 20px;
+}
+
+.about-content .primary-button a:hover {
   background-color: transparent;
   color: #fa5252;
   border: 1px solid #fa5252;
