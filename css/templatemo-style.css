@@ -358,8 +358,25 @@ ul {
 
 .home-buttons-container {
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.icons-container > a {
+  margin-left: 5px;
+}
+
+.icons-container > a > .fa-linkedin-square {
+  color: #00a6ff;
+}
+
+.icons-container > a > .fa-github-alt {
+  color: #fafafa;
+}
+
+.icons-container > a > .fa-angellist {
+  color: rgb(220, 137, 220);
 }
 
 /*
