@@ -346,27 +346,20 @@ ul {
   float: right;
 }
 
-.home-buttons-container {
+.buttons-container {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
-.icons-container > a {
+.icons-container > a > .fa {
   margin-left: 5px;
+  color: #f5f5f5;
 }
 
-.icons-container > a > .fa-linkedin-square {
-  color: #67caff;
-}
-
-.icons-container > a > .fa-github-alt {
-  color: #d2d2d2;
-}
-
-.icons-container > a > .fa-angellist {
-  color: rgb(216, 176, 216);
+.icons-container > a > .project-icon {
+  color: #333;
 }
 
 /*
