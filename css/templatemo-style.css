@@ -353,7 +353,7 @@ ul {
   justify-content: space-between;
 }
 
-.icons-container > a > .fa {
+.about-box-text > .icons-container > a > .fa {
   margin-left: 10px;
   color: #333;
 }
