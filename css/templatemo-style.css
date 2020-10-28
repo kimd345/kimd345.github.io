@@ -353,12 +353,17 @@ ul {
   justify-content: space-between;
 }
 
-.icons-container > a > .fa {
+.icons-container {
+  position: absolute;
+  right: 65px;
+}
+
+a > .fa {
   margin-left: 5px;
   color: #f5f5f5;
 }
 
-.icons-container > a > .project-icon {
+a > .project-icon {
   color: #333;
 }
 
