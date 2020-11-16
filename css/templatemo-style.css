@@ -390,7 +390,7 @@ ul {
 
 /* shibal images */
 .project-item > .shibal-images-wrapper > a > img {
-  height: 280px;
+  /* height: 280px; */
 }
 
 .shibal-images-wrapper {
