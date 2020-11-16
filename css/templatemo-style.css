@@ -388,6 +388,19 @@ ul {
   width: 100%;
 }
 
+/* shibal images */
+.project-item > div > img {
+  height: 280px;
+}
+
+.shibal-images-wrapper {
+  height: 280px;
+  width: 370px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .projects-content .owl-carousel {
   margin: 0 -30%;
   width: 160%;
